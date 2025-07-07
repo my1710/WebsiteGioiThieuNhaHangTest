@@ -1,0 +1,38 @@
+﻿@model IEnumerable<GioiThieuNhaHang.Models.MonAn>
+
+@{
+    ViewData["Title"] = "Quản lý món ăn";
+}
+
+<h2>Quản lý món ăn</h2>
+<a asp-action="CreateMonAn" asp-controller="Admin" class="btn btn-primary">Thêm món ăn</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Tên món</th>
+            <th>Giá</th>
+            <th>Mô tả</th>
+            <th>Ảnh</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TenMon</td>
+                <td>@item.Gia</td>
+                <td>@item.MoTa</td>
+                <td><img src="@item.HinhAnh" width="100" /></td>
+                <td>
+                    <a asp-controller="Admin" asp-action="EditMonAn" asp-route-id="@item.IdMonAn" class="btn btn-sm btn-warning">Sửa</a>
+                    <form asp-controller="Admin" asp-action="DeleteMonAn" asp-route-id="@item.IdMonAn" method="post" style="display:inline;" onsubmit="return confirm('Xác nhận xóa?');">
+                        <button type="submit" class="btn btn-sm btn-danger">Xóa</button>
+                    </form>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

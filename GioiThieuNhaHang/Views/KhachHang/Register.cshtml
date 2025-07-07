@@ -1,0 +1,210 @@
+﻿@model KhachHangRegisterModel
+
+@{
+    ViewData["Title"] = "Đăng ký";
+}
+
+<style>
+    body {
+        background-color: #fff9f0;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .register-container {
+        max-width: 450px;
+        margin: 80px auto;
+        padding: 40px;
+        background-color: white;
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        border-top: 6px solid #ff9800;
+    }
+
+    .register-title {
+        text-align: center;
+        color: #ff9800;
+        margin-bottom: 30px;
+        font-weight: bold;
+        font-size: 28px;
+    }
+
+    .form-label {
+        color: #333;
+        font-weight: 600;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+    }
+
+    .btn-register {
+        width: 100%;
+        background-color: #ff9800;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-register:hover {
+        background-color: #e68900;
+    }
+
+    .alert {
+        margin-top: 10px;
+    }
+</style>
+
+<div class="register-container">
+    <div class="register-title">Đăng ký tài khoản</div>
+
+    @if (ViewBag.ThongBao != null)
+    {
+        <div class="alert alert-warning">@ViewBag.ThongBao</div>
+    }
+
+    <form asp-action="Register" method="post">
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            <label asp-for="HoTen" class="form-label">Họ tên</label>
+            <input asp-for="HoTen" class="form-control" placeholder="Nhập họ tên" />
+            <span asp-validation-for="HoTen" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email" class="form-label">Email</label>
+            <input asp-for="Email" class="form-control" placeholder="Nhập email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="MatKhau" class="form-label">Mật khẩu</label>
+            <input asp-for="MatKhau" type="password" class="form-control" placeholder="Nhập mật khẩu" />
+            <span asp-validation-for="MatKhau" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ConfirmPassword" class="form-label">Xác nhận mật khẩu</label>
+            <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Nhập lại mật khẩu" />
+            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-register">Đăng ký</button>
+    </form>
+</div>
+
+
+@* <style>
+    body {
+        background-color: #fff9f0;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .register-container {
+        max-width: 450px;
+        margin: 80px auto;
+        padding: 40px;
+        background-color: white;
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        border-top: 6px solid #ff9800;
+    }
+
+    .register-title {
+        text-align: center;
+        color: #ff9800;
+        margin-bottom: 30px;
+        font-weight: bold;
+        font-size: 28px;
+    }
+
+    .form-label {
+        color: #333;
+        font-weight: 600;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+    }
+
+    .btn-register {
+        width: 100%;
+        background-color: #ff9800;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-register:hover {
+            background-color: #e68900;
+        }
+
+    .alert {
+        margin-top: 10px;
+    }
+    /* Định nghĩa chung cho các nút */
+    .btn {
+        display: inline-block;
+        list-style: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-align: center;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+        .btn a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Nút vàng cam (primary) */
+        .btn.primary {
+            background-color: #ff9800;
+        }
+
+            .btn.primary:hover {
+                background-color: #e68900;
+                transform: translateY(-2px);
+            }
+
+        /* Nút đen trắng (secondary) */
+        .btn.secondary {
+            background-color: #333;
+        }
+
+            .btn.secondary:hover {
+                background-color: #000;
+                transform: translateY(-2px);
+            }
+
+</style>
+
+<h2>Đăng ký</h2>
+
+@if (ViewBag.ThongBao != null)
+{
+    <div class="alert alert-warning">@ViewBag.ThongBao</div>
+}
+
+<form asp-action="Register" method="post">
+    <input asp-for="HoTen" placeholder="Họ tên" />
+    <input asp-for="Email" placeholder="Email" />
+    <input asp-for="MatKhau" placeholder="Mật khẩu" type="password" />
+    <input asp-for="ConfirmPassword" type="password" placeholder="Xác nhận mật khẩu" />
+
+    <div class="text-center mt-3">
+        <button type="submit" class="btn primary w-100">Đăng ký</button>
+    </div>
+</form> *@
+

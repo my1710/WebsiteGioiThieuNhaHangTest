@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ";
+}
+<h1>Chào mừng đến với nhà hàng HƯƠNG VỊ VIỆT </h1>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Hương Vị Việt Nam <br> Truyền Thống</h1>
+        <p>Khám phá tinh hoa ẩm thực Việt Nam với những món ăn đặc sắc được chế biến từ nguyên liệu tươi ngon nhất.</p>
+        <div class="buttons">
+            <li class="btn primary">
+                <a class="nav-link" asp-controller="Menu" asp-action="Index">Xem Thực Đơn</a>
+            </li>
+            <li class="btn secondary">
+                <a class="nav-link" asp-controller="DatBan" asp-action="Index">Đặt Bàn Ngay</a>
+            </li>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <div class="about-container">
+        <div class="about-image">
+            <img src="~/anhnhahang/nhahang1.jpeg" alt="Giới thiệu" />
+        </div>
+        <div class="about-text">
+            <h2>Về Nhà Hàng Chúng Tôi</h2>
+            <p>Nhà hàng Hương Vị Việt tự hào mang đến cho quý khách những trải nghiệm ẩm thực Việt Nam đích thực.</p>
+            <p>Với hơn 15 năm kinh nghiệm, chúng tôi đã phục vụ hàng ngàn thực khách với những món ăn truyền thống được chế biến từ nguyên liệu tươi ngon nhất.</p>
+            <li class="btn primary">
+                <a class="nav-link" asp-controller="TinTuc" asp-action="Index">Tìm Hiểu Thêm</a>
+            </li>
+        </div>
+    </div>
+</section>
+
+<section class="special-menu">
+    <h2>Món Ăn Đặc Sắc</h2>
+    <p>Khám phá những món ăn nổi bật được yêu thích nhất tại nhà hàng chúng tôi.</p>
+    <div class="menu-items">
+        <div class="menu-card">
+            <img src="~/anhnhahang/nhahangmenuphobo.jpeg" alt="Phở Bò" />
+            <h3>Phở Bò Truyền Thống</h3>
+            <p>Phở bò với nước dùng đậm đà nấu trong 12 giờ, thịt bò tươi ngon cùng các loại gia vị đặc trưng.</p>
+            <div class="price">120.000đ</div>
+            <li class="btn primary">
+                <a class="nav-link" asp-controller="DatBan" asp-action="Index">Đặt Bàn Ngay</a>
+            </li>
+        </div>
+        <div class="menu-card">
+            <img src="~/anhnhahang/nhahangmenubuncha.jpg" alt="Bún chả" />
+            <h3>Bún Chả Hà Nội</h3>
+            <p>Bún chả với thịt nướng thơm lừng, nước mắm chua ngọt đặc trưng và rau sống tươi ngon.</p>
+            <div class="price">95.000đ</div>
+            <li class="btn primary">
+                <a class="nav-link" asp-controller="DatBan" asp-action="Index">Đặt Bàn Ngay</a>
+            </li>
+        </div>
+        <div class="menu-card">
+            <img src="~/anhnhahang/nhahangmenugoicuon.png" alt="Gỏi cuốn" />
+            <h3>Gỏi Cuốn Tôm Thịt</h3>
+            <p>Gỏi cuốn tươi mát với tôm, thịt heo, bún, rau thơm cuộn trong bánh tráng, kèm nước chấm.</p>
+            <div class="price">85.000đ</div>
+            <li class="btn primary">
+                <a class="nav-link" asp-controller="DatBan" asp-action="Index">Đặt Bàn Ngay</a>
+            </li>
+        </div>
+    </div>
+    <div class="center-btn">
+        <li class="btn primary">
+            <a class="nav-link" asp-controller="Menu" asp-action="Index">Thực đơn</a>
+        </li>
+    </div>
+</section>
+
+<section class="booking-cta">
+    <h2>Đặt Bàn Ngay Hôm Nay</h2>
+    <p>Trải nghiệm ẩm thực Việt Nam đích thực tại nhà hàng Hương Vị Việt. Đặt bàn ngay để không bỏ lỡ cơ hội thưởng thức những món ăn tuyệt vời.</p>
+    <li class="btn secondary">
+        <a class="nav-link" asp-controller="DatBan" asp-action="Index">Đặt Bàn Ngay</a>
+    </li>
+</section>

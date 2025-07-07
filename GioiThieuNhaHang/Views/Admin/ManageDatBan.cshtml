@@ -1,0 +1,61 @@
+﻿@model IEnumerable<GioiThieuNhaHang.Models.DatBan>
+
+@{
+    ViewData["Title"] = "Quản lý đặt bàn";
+}
+
+<h2>Quản lý đặt bàn</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Họ tên</th>
+            <th>Số điện thoại</th>
+            <th>Email</th>
+            <th>Ngày</th>
+            <th>Giờ</th>
+            <th>Số người</th>
+            <th>Ghi chú</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+                @* public int IdDatBan { get; set; }
+        public string HoTen { get; set; }
+        public string SDT { get; set; }
+        public string Email { get; set; }
+        public DateTime ThoiGian { get; set; }
+        public int SoNguoi { get; set; }
+        public string TrangThai { get; set; } = "Chờ xác nhận";
+        public bool DaXacNhan { get; internal set; } *@
+            <tr>
+                <td>@item.HoTen</td>
+                <td>@item.SDT</td>
+                <td>@item.Email</td>
+                <td>@item.ThoiGian.ToShortDateString()</td>
+                <td>@item.ThoiGian.ToShortTimeString()</td>
+                <td>@item.SoNguoi</td>
+                <td>@item.TrangThai</td>
+                <td>@(item.DaXacNhan ? "Đã xác nhận" : "Chưa")</td>
+                <td>
+                    @if (!item.DaXacNhan)
+                    {
+                        <!-- Xác nhận -->
+                        <form asp-controller="Admin" asp-action="ConfirmDatBan" asp-route-id="@item.IdDatBan" method="post"
+                              style="display:inline;" onsubmit="return confirm('Xác nhận đơn đặt bàn này?');">
+                            <button type="submit" class="btn btn-sm btn-success">Xác nhận</button>
+                        </form>
+                    }
+                    <!-- Xoá -->
+                    <form asp-controller="Admin" asp-action="DeleteDatBan" asp-route-id="@item.IdDatBan" method="post"
+                          style="display:inline;" onsubmit="return confirm('Bạn có chắc muốn xoá đơn này?');">
+                        <button type="submit" class="btn btn-sm btn-danger">Xoá</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

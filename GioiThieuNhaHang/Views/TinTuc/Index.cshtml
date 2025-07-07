@@ -1,0 +1,60 @@
+﻿<!-- TIN TUC PAGE -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức - Hương Vị Việt</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #d47900;
+        }
+
+        .news-item {
+            margin-bottom: 20px;
+        }
+
+            .news-item h2 {
+                margin-bottom: 5px;
+            }
+
+            .news-item p {
+                color: #444;
+            }
+    </style>
+</head>
+<body>
+    <h1>Tin Tức</h1>
+    <div class="news-item">
+        <h2>Ra mắt món mới: Bánh xèo miền Trung</h2>
+        <img src="~/anhnhahang/nhahangmenubanhxeo.jpeg" />
+        <p>Thưởng thức hương vị đậm chất miền Trung với bánh xèo nhân tôm thịt đặc biệt.</p>
+    </div>
+    <h1>Khuyến Mãi</h1>
+    <div class="news-item">
+        <h2>Ưu đãi tháng 6: Giảm 20% cho đơn trên 500k</h2>
+        <p>Chương trình khuyến mãi hấp dẫn đang chờ đón bạn từ ngày 1 đến 30 tháng 6!</p>
+    </div>
+    <div class="news-item">
+        <h2>Ưu đãi Siêu Hời: Giảm 10% khi thanh toán bằng các Thẻ Ngân Hàng VIB - TECHCOMBANK - VPBANK - TPBANK </h2>
+        <p>khách hàng được giảm giá khi dùng thanh toán bằng thẻ ngân hàng liên kết với nhà hàng.</p>
+        <img src="~/anhnhahang/nhahangtintuckhuyenmai3.jpg" />
+    </div>
+</body>
+</html>
+@* <h2>Tin tức - Sự kiện</h2>
+@foreach (var tin in Model)
+{
+    <div>
+        <h3>@tin.TieuDe</h3>
+        <p>@tin.NgayTao.ToShortDateString()</p>
+        <img src="/images/@tin.HinhAnh" width="200" />
+        <p>@tin.NoiDung</p>
+    </div>
+} *@
+

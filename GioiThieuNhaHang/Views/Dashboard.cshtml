@@ -1,0 +1,7 @@
+﻿@{
+    ViewData["Title"] = "Trang Quản Trị";
+}
+<h2>Xin chào @Context.Session.GetString("AdminUsername")</h2>
+<p>Vai trò: @Context.Session.GetString("AdminRole")</p>
+
+<a href="@Url.Action("Logout", "Admin")" class="btn btn-danger">Đăng xuất</a>

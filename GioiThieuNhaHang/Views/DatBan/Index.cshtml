@@ -1,0 +1,94 @@
+﻿@model GioiThieuNhaHang.Models.DatBan
+@using GioiThieuNhaHang.Models
+
+@{
+    ViewData["Title"] = "Đặt bàn";
+    var donCuaToi = ViewBag.DonCuaToi as List<DatBan>;
+}
+
+<h2>Đặt bàn trực tuyến</h2>
+
+@if (ViewBag.ThongBao != null)
+{
+    <div class="alert alert-success">@ViewBag.ThongBao</div>
+}
+
+@if (TempData["ThongBao"] != null)
+{
+    <div class="alert alert-warning">@TempData["ThongBao"]</div>
+}
+
+<form asp-action="DatBan" method="post" class="mb-4">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label asp-for="HoTen">Họ Tên</label>
+        <input asp-for="HoTen" class="form-control" />
+        <span asp-validation-for="HoTen" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SDT">Số điện thoại</label>
+        <input asp-for="SDT" class="form-control" />
+        <span asp-validation-for="SDT" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ThoiGian">Thời gian</label>
+        <input asp-for="ThoiGian" type="datetime-local" class="form-control" />
+        <span asp-validation-for="ThoiGian" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SoNguoi">Số Người</label>
+        <input asp-for="SoNguoi" type="number" min="1" class="form-control" />
+        <span asp-validation-for="SoNguoi" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Đặt bàn</button>
+
+    @if (TempData["ThongBao"] != null)
+    {
+        <div class="alert alert-success">@TempData["ThongBao"]</div>
+        <div class="alert alert-info">@TempData["ThongBao"]</div>
+    }
+
+
+</form>
+
+<hr />
+<h4>Đơn của tôi</h4>
+
+@if (donCuaToi != null && donCuaToi.Count > 0)
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Ngày</th>
+                <th>Giờ</th>
+                <th>Số người</th>
+                <th>Trạng thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var d in donCuaToi)
+            {
+                <tr>
+                    <td>@d.ThoiGian.ToShortDateString()</td>
+                    <td>@d.ThoiGian.ToShortTimeString()</td>
+                    <td>@d.SoNguoi</td>
+                    <td>@d.TrangThai</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Bạn chưa có đơn nào.</p>
+}

@@ -1,0 +1,17 @@
+﻿<h2>Quản lý đặt bàn</h2>
+<table>
+    <tr><th>Khách</th><th>SĐT</th><th>Thời gian</th><th>Trạng thái</th><th>Hành động</th></tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.HoTen</td>
+            <td>@item.SDT</td>
+            <td>@item.ThoiGian</td>
+            <td>@item.TrangThai</td>
+            <td>
+                <a asp-action="XacNhan" asp-route-id="@item.IdDatBan">Xác nhận</a> |
+                <a asp-action="Xoa" asp-route-id="@item.IdDatBan">Xoá</a>
+            </td>
+        </tr>
+    }
+</table>

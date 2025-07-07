@@ -1,0 +1,845 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\lienhe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\lienhe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\lienhe\\camon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\lienhe\\camon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\khachhang\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\khachhang\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\khachhang\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\khachhang\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\datban\\quanly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\datban\\quanly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\datban\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\datban\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\admin\\managemonan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\admin\\managemonan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\admin\\managedatban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\admin\\managedatban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\admin\\editmonan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\admin\\editmonan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\admin\\createmonan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\admin\\createmonan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\controllers\\datbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\controllers\\datbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\datban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\datban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\khachhangregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\khachhangregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\khachhangloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\khachhangloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\views\\tintuc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\views\\tintuc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\controllers\\lienhecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\controllers\\lienhecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\migrations\\appdb\\20250703005810_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\migrations\\appdb\\20250703005810_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\wwwroot\\anhnhahang\\nhahangtintuckhuyenmai1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\wwwroot\\anhnhahang\\nhahangtintuckhuyenmai1.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\wwwroot\\anhnhahang\\nhahangmenugoicuon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\wwwroot\\anhnhahang\\nhahangmenugoicuon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\loaimon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\loaimon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\controllers\\tintuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\controllers\\tintuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\adminlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\adminlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\adminroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\adminroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\lienhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\lienhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\models\\tintuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\models\\tintuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|d:\\hocnam2\\ki3\\backend\\btlwebsitegioithieunhahang\\gioithieunhahang\\migrations\\appdb\\20250702225938_updatemonantouseunicode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED5D254-3BAF-4663-B30E-A17160F2BB78}|GioiThieuNhaHang\\GioiThieuNhaHang.csproj|solutionrelative:gioithieunhahang\\migrations\\appdb\\20250702225938_updatemonantouseunicode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\appsettings.json",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\appsettings.json",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\appsettings.json",
+              "RelativeToolTip": "GioiThieuNhaHang\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T10:11:17.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Program.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Program.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Program.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:21:03.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\Menu\\Index.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Menu\\Index.cshtml*",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\Menu\\Index.cshtml*",
+              "ViewState": "AgIAAMABAAAAAAAAAAAcwMgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T10:15:44.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Data\\AppDbContext.cs*",
+              "RelativeToolTip": "GioiThieuNhaHang\\Data\\AppDbContext.cs*",
+              "ViewState": "AgIAADkAAAAAAAAAAAAcwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:53:46.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\_ViewStart.cshtml*",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\_ViewStart.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T13:24:23.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Login.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\Login.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Login.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T11:00:57.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\Dashboard.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Dashboard.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T11:18:43.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAE4BAAAAAAAAAAAcwGIBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T10:30:15.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\LienHe\\Index.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\LienHe\\Index.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\LienHe\\Index.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\LienHe\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwB4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T10:29:28.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CamOn.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\LienHe\\CamOn.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\LienHe\\CamOn.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\LienHe\\CamOn.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\LienHe\\CamOn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T10:42:09.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\KhachHang\\Register.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\KhachHang\\Register.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\KhachHang\\Register.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\KhachHang\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T11:09:44.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\KhachHang\\Login.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\KhachHang\\Login.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\KhachHang\\Login.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\KhachHang\\Login.cshtml",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAcwG4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T11:10:15.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwFAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T10:13:54.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QuanLy.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\DatBan\\QuanLy.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\DatBan\\QuanLy.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\DatBan\\QuanLy.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\DatBan\\QuanLy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T10:30:01.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\DatBan\\Index.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\DatBan\\Index.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\DatBan\\Index.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\DatBan\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwE8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T10:26:52.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManageMonAn.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Admin\\ManageMonAn.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\Admin\\ManageMonAn.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Admin\\ManageMonAn.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\Admin\\ManageMonAn.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T19:10:44.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageDatBan.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Admin\\ManageDatBan.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\Admin\\ManageDatBan.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Admin\\ManageDatBan.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\Admin\\ManageDatBan.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwDQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T19:12:17.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T19:34:20.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditMonAn.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Admin\\EditMonAn.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\Admin\\EditMonAn.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Admin\\EditMonAn.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\Admin\\EditMonAn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T19:11:48.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T19:37:36.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateMonAn.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Admin\\CreateMonAn.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\Admin\\CreateMonAn.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\Admin\\CreateMonAn.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\Admin\\CreateMonAn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T19:11:18.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "KhachHangController.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\KhachHangController.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Controllers\\KhachHangController.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\KhachHangController.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Controllers\\KhachHangController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T11:07:46.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DatBanController.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\DatBanController.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Controllers\\DatBanController.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\DatBanController.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Controllers\\DatBanController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:16:23.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DatBan.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\DatBan.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\DatBan.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\DatBan.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\DatBan.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA/wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:50:18.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "KhachHangRegisterModel.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\KhachHangRegisterModel.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\KhachHangRegisterModel.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\KhachHangRegisterModel.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\KhachHangRegisterModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvw8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T11:06:36.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "KhachHangLoginModel.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\KhachHangLoginModel.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\KhachHangLoginModel.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\KhachHangLoginModel.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\KhachHangLoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T11:07:09.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\KhachHang.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\KhachHang.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\KhachHang.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\KhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T11:05:11.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:59:42.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250703005810_InitialCreate.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Migrations\\AppDb\\20250703005810_InitialCreate.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Migrations\\AppDb\\20250703005810_InitialCreate.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Migrations\\AppDb\\20250703005810_InitialCreate.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Migrations\\AppDb\\20250703005810_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T00:58:13.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LienHeController.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\LienHeController.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Controllers\\LienHeController.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\LienHeController.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Controllers\\LienHeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwCQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:28:47.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\TinTuc\\Index.cshtml",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Views\\TinTuc\\Index.cshtml",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Views\\TinTuc\\Index.cshtml",
+              "RelativeToolTip": "GioiThieuNhaHang\\Views\\TinTuc\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T10:28:21.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AdminUser.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\AdminUser.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\AdminUser.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\AdminUser.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\AdminUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:51:29.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "nhaHangTinTucKhuyenMai1.jpg - Bitmap [700x522, 24 bit, JPG]",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\wwwroot\\AnhnhaHang\\nhaHangTinTucKhuyenMai1.jpg",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\wwwroot\\AnhnhaHang\\nhaHangTinTucKhuyenMai1.jpg",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\wwwroot\\AnhnhaHang\\nhaHangTinTucKhuyenMai1.jpg - Bitmap [700x522, 24 bit, JPG]",
+              "RelativeToolTip": "GioiThieuNhaHang\\wwwroot\\AnhnhaHang\\nhaHangTinTucKhuyenMai1.jpg - Bitmap [700x522, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-07-02T23:13:53.371Z",
+              "EditorCaption": " - Bitmap [700x522, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "nhaHangMenuGoiCuon.png - PNG [590x394, 32 bit, PNG]",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\wwwroot\\AnhnhaHang\\nhaHangMenuGoiCuon.png",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\wwwroot\\AnhnhaHang\\nhaHangMenuGoiCuon.png",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\wwwroot\\AnhnhaHang\\nhaHangMenuGoiCuon.png - PNG [590x394, 32 bit, PNG]",
+              "RelativeToolTip": "GioiThieuNhaHang\\wwwroot\\AnhnhaHang\\nhaHangMenuGoiCuon.png - PNG [590x394, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-07-02T23:12:22.391Z",
+              "EditorCaption": " - PNG [590x394, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250702225938_UpdateMonAnToUseUnicode.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Migrations\\AppDb\\20250702225938_UpdateMonAnToUseUnicode.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Migrations\\AppDb\\20250702225938_UpdateMonAnToUseUnicode.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Migrations\\AppDb\\20250702225938_UpdateMonAnToUseUnicode.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Migrations\\AppDb\\20250702225938_UpdateMonAnToUseUnicode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T22:59:41.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoaiMon.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\LoaiMon.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\LoaiMon.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\LoaiMon.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\LoaiMon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:48:18.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TinTucController.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\TinTucController.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Controllers\\TinTucController.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\TinTucController.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Controllers\\TinTucController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:27:17.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:14:45.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MonAn.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\MonAn.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\MonAn.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\MonAn.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\MonAn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:49:51.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AdminLogin.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\AdminLogin.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\AdminLogin.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\AdminLogin.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\AdminLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:57:51.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Services\\EmailService.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Services\\EmailService.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:43:41.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\EmailSettings.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\EmailSettings.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:52:49.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GioiThieuNhaHang\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T12:24:59.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AdminLogs.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\AdminLogs.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\AdminLogs.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\AdminLogs.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\AdminLogs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:51:55.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AdminRoles.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\AdminRoles.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\AdminRoles.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\AdminRoles.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\AdminRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:52:43.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T11:38:39.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LienHe.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\LienHe.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\LienHe.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\LienHe.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\LienHe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:51:00.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\Roles.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\Roles.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\Roles.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:52:17.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "TinTuc.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\TinTuc.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Models\\TinTuc.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Models\\TinTuc.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Models\\TinTuc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:50:39.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "GioiThieuNhaHang\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\hocnam2\\ki3\\backEnd\\btlWebsiteGioiThieuNhaHang\\GioiThieuNhaHang\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "GioiThieuNhaHang\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:09:19.881Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

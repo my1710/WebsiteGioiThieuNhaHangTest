@@ -1,0 +1,53 @@
+﻿<!-- LIEN HE PAGE -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ - Hương Vị Việt</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #d47900;
+        }
+
+        form {
+            max-width: 400px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #d47900;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    @model LienHe
+    <h1>Liên hệ</h1>
+    <form asp-action="Gui" method="post">
+        <input asp-for="HoTen" placeholder="Họ tên" /><br />
+        <input asp-for="Email" placeholder="Email" /><br />
+        <textarea asp-for="TinNhan" placeholder="Tin nhắn"></textarea><br />
+        <input type="submit" value="Gửi liên hệ" />
+    </form>
+
+    <h3>Địa chỉ</h3>
+    <iframe src="https://www.google.com/maps/embed?..."></iframe>
+
+</body>
+</html>
+
+

@@ -1,0 +1,368 @@
+﻿ <!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GioiThieuNhaHang</title>
+
+    <!-- Bootstrap + CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/GioiThieuNhaHang.styles.css" asp-append-version="true" />
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: 'Segoe UI', sans-serif;
+          background-color: #fff;
+          color: #333;
+          line-height: 1.6;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px 30px;
+          border-bottom: 2px solid #e5e5e5;
+          flex-wrap: wrap;
+        }
+
+        .logo {
+          font-size: 28px;
+          font-weight: bold;
+          color: #d47900;
+        }
+
+        nav ul {
+          list-style: none;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 15px;
+        }
+
+        nav ul li a {
+          text-decoration: none;
+          color: #333;
+          font-weight: 500;
+          border-bottom: 2px solid transparent;
+          padding-bottom: 4px;
+        }
+
+        nav ul li a.active,
+        nav ul li a:hover {
+          border-bottom: 2px solid #d47900;
+          color: #d47900;
+        }
+
+        .hero {
+          background-color: #111;
+          color: #fff;
+          padding: 60px 30px;
+          text-align: center;
+        }
+
+        .hero-content {
+          max-width: 800px;
+          margin: auto;
+        }
+
+        .hero h1 {
+          font-size: 38px;
+          margin-bottom: 20px;
+        }
+
+        .hero p {
+          font-size: 16px;
+          margin-bottom: 25px;
+          color: #ccc;
+        }
+
+        .buttons {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 15px;
+        }
+
+        .btn {
+          padding: 12px 24px;
+          font-weight: bold;
+          border-radius: 4px;
+          transition: 0.3s;
+          display: inline-block;
+        }
+
+        .primary {
+          background-color: #d47900;
+          color: #fff;
+        }
+
+        .primary:hover {
+          background-color: #b56600;
+        }
+
+        .secondary {
+          border: 2px solid #fff;
+          color: #fff;
+        }
+
+        .secondary:hover {
+          background-color: #fff;
+          color: #111;
+        }
+
+        .about {
+          background-color: #fff;
+          padding: 60px 30px;
+        }
+
+        .about-container {
+          display: flex;
+          gap: 30px;
+          align-items: center;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        .about-image img {
+          max-width: 280px;
+          width: 100%;
+          border-radius: 12px;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .about-text {
+          max-width: 500px;
+        }
+
+        .about-text h2 {
+          font-size: 26px;
+          margin-bottom: 20px;
+        }
+
+        .about-text p {
+          margin-bottom: 16px;
+        }
+
+        .special-menu {
+          background-color: #fff7e6;
+          padding: 60px 30px;
+          text-align: center;
+        }
+
+        .special-menu h2 {
+          font-size: 28px;
+          margin-bottom: 10px;
+        }
+
+        .special-menu p {
+          margin-bottom: 30px;
+          color: #555;
+        }
+
+        .menu-items {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+        }
+
+        .menu-card {
+          background: #fff;
+          padding: 20px;
+          border-radius: 12px;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+          width: 90%;
+          max-width: 300px;
+          text-align: left;
+        }
+
+        .menu-card img {
+          width: 100%;
+          border-radius: 8px;
+          background-color: #eee;
+          margin-bottom: 15px;
+        }
+
+        .menu-card h3 {
+          font-size: 18px;
+          margin-bottom: 8px;
+        }
+
+        .menu-card p {
+          font-size: 14px;
+          margin-bottom: 12px;
+          color: #555;
+        }
+
+        .menu-card .price {
+          color: #d47900;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+
+        .center-btn {
+          margin-top: 30px;
+        }
+
+        .large {
+          padding: 14px 32px;
+          font-size: 16px;
+          border-radius: 24px;
+        }
+
+        .booking-cta {
+          background-color: #d47900;
+          padding: 60px 30px;
+          color: #fff;
+          text-align: center;
+        }
+
+        .booking-cta h2 {
+          font-size: 26px;
+          margin-bottom: 16px;
+        }
+
+        .booking-cta p {
+          font-size: 16px;
+          margin-bottom: 30px;
+        }
+
+        .btn.white {
+          background-color: #fff;
+          color: #d47900;
+          font-weight: bold;
+          padding: 12px 24px;
+          border-radius: 24px;
+        }
+
+        /* Responsive */
+        media (max-width: 768px) {
+          .hero h1 {
+            font-size: 30px;
+          }
+
+          .about-container {
+            flex-direction: column;
+            text-align: center;
+          }
+
+          .about-text {
+            max-width: 100%;
+          }
+
+          nav ul {
+            justify-content: center;
+            flex-wrap: wrap;
+          }
+
+          header {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+        }
+
+        media (max-width: 480px) {
+          .btn, .large {
+            width: 100%;
+            text-align: center;
+          }
+
+          .menu-card {
+            width: 100%;
+          }
+        }
+    </style>
+
+</head>
+<body>
+    <header color: #d47900;>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">🍽️ Hương Vị Việt</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarMain">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        @{
+                            var khEmail = Context.Session.GetString("KhachHangEmail");
+                        }
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Menu" asp-action="Index">Thực đơn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="DatBan" asp-action="Index">Đặt bàn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="TinTuc" asp-action="Index">Tin tức</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="LienHe" asp-action="Index">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger fw-semibold" asp-controller="Admin" asp-action="Index">Quản trị</a>
+                        </li>
+
+
+                        @if (Context.Session.GetInt32("KhachHangId") != null)
+                        {
+                            <li class="nav-item">
+                                <span class="nav-link">👤 @Context.Session.GetString("KhachHangTen")</span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="KhachHang" asp-action="Logout">Đăng xuất</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="KhachHang" asp-action="Login">Đăng nhập</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="KhachHang" asp-action="Register">Đăng ký</a>
+                            </li>
+                        }
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container pb-3">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top text-center text-muted py-3">
+        <div class="container">
+            &copy; @DateTime.Now.Year - Nhà hàng Hương Vị Việt | <a asp-controller="Home" asp-action="Privacy">Chính sách</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
