@@ -11,3 +11,15 @@ Website giới thiệu nhà hàng HƯƠNG VỊ VIỆT
 <p align="center">
   <img src="AnhMau/nhaHang1.jpeg" width="200">
 </p>
+<br>
+<p align="center">
+  <img src="AnhMau/localhost_5019_.png" width="200">
+</p>
+<p align="center">
+  <img src="AnhMau/localhost_5019_Menu.png" width="200">
+</p>
+<p align="center">
+  <img src="AnhMau/localhost_5019_TinTuc.png" width="200">
+</p>
+
+
