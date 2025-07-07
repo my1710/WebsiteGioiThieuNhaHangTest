@@ -9,5 +9,5 @@ Website giới thiệu nhà hàng HƯƠNG VỊ VIỆT
    - Liên hệ: trang tiếp nhận các hỏi đáp, thắc mắc, lời nhắn mà người truy cập website muốn gửi về cho nhà hàng
 3. giao diện của website Giới thiệu nhà hàng HƯƠNG VỊ VIỆT
 <p align="center">
-  <img src="images/AnhnhaHang/nhaHang1.jpeg" width="200">
+  <img src="AnhMau/nhaHang1.jpeg" width="200">
 </p>
